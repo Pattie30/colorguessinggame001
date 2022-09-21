@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .grid div{
  width:50px ;
  height: 50px;
@@ -132,3 +133,100 @@ body {
 
 
 
+=======
+
+
+
+.header {
+  background: steelblue;
+  width: 100%;
+      height: 200px;
+      font-size: 100px;
+      display: flex;
+      justify-items: space-around;
+      align-items: flex-start;
+      flex-direction: row;
+      
+
+  
+
+}
+
+body {
+ 
+    margin: 0;
+}
+
+.start-btn {
+   background-color: greenyellow;
+   margin-left: 30%;
+}
+
+
+.reset-btn{
+    background-color: rgb(201, 76, 76);
+    margin: 6% 30% 5% 10%;
+}
+
+
+  .play{
+    margin: 2px 20px 400px 400px;
+    
+    
+    
+ }
+
+
+
+
+ 
+
+  table {
+    width: 80%;
+    max-width: 668px;
+    max-height: 1024px;
+    margin: auto;
+  }
+
+
+  td {
+    width: 33.33%;
+    position: relative;
+  }
+  td:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+  }
+  td .Btn-One, .Btn-Two, .Btn-Three, .Btn-Four, .Btn-Five, .Btn-Six {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 82f25ca47a2e8e95f963848a48dfa6977a84e8e0
