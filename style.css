@@ -1,0 +1,119 @@
+.hiddenBox {
+    display: flex;
+    max-width: 100vw;
+    margin: 5% auto;
+    
+   
+ }
+ 
+ .hiddencolor {
+    
+    width: 60px;
+    margin-left: 28%;
+    right: 50%;
+        /* background:black ;  */
+       padding: 30px;
+       float:inline-start;
+       text-align: center;
+       border: 3px solid black;
+       
+       border-radius: 15%;
+       
+ }
+  
+ #checkmark{
+    width: 20px;
+    height: 20px;
+ }
+
+ #wrong{
+    width: 20px;
+    height: 20px;
+ }
+ 
+  
+ /* .hiddencolor{
+    display: none;
+ } */
+ 
+ .header {
+   background: steelblue;
+   justify-content: center;
+   text-align: center;
+   width: 80vw;
+       height: 5vw;
+       font-size:5vw;
+       margin: 3%;
+       
+      
+       
+ 
+   
+ 
+ }
+ 
+ body {
+  
+     margin:5%;
+ }
+ 
+ #play {
+    background-color: greenyellow;
+    margin-left: 30%;
+    
+ }
+ 
+ 
+ #reset{
+     background-color: rgb(201, 76, 76);
+     margin: 6% 30% 5% 10%;
+    
+ }
+ 
+ 
+ .grid{
+    display: flex;
+    max-width: 30vw;
+   margin: 5% auto;
+ }
+  
+  .button{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+       width: 10%;
+        background: #f08080; 
+       padding-top: 10%;
+       float: left;
+       margin: 1.66%;
+       border-radius: 15%;
+       transition: 1.0s;
+       -webkit-transition: 1.0s;
+       -moz-transition: 1.0s;
+    }
+    .colorOne{
+       background-color: #00FFFF;
+    }
+
+    .colorTwo{
+        background-color: #00308F;
+     }
+
+     .colorThree{
+        background-color: #007FFF;
+     }
+
+     .colorFour{
+        background-color: #00BFFF;
+     }
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
