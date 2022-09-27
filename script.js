@@ -22,28 +22,20 @@ let azureBtn = document.querySelector('.colorThree')
 let deepSkyBtn = document.querySelector('.colorFour')
 
 const createdColor = () => {
- 
-    let color = ''
-    for(let i= 0; i <= 4; i++){
-       let sub =  Math.floor(Math.random() * colors.length)
-       color += (sub.length == 1 ? '0' + sub : sub);
-       }
-     return '#' + color;
+      return colors[ Math.floor(Math.random() * colors.length)]
 
-  
 } 
 
+const playUI = () => {
+  //  if(hiddenBox.addEventListener('click'))
+  
+  hiddenBox.style.backgroundColor= createdColor()
+  }
 
 
-// const playUI = () => {
-//   //  if(hiddenBox.addEventListener('click'))
-//   return createdColor()
-// }
 
 
-
- playbtn.addEventListener('click', createdColor)
-
+playbtn.addEventListener('click', playUI)
 
 // //let colors = [];
 //  // let numOfSquares = 6
